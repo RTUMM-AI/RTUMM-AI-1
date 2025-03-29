@@ -8,7 +8,7 @@ module.exports = {
     cooldowns: 5,
     aliases: ["gpt4","RTUMM AI"],
     usage: "[prompt]",
-    example: "ai give mathematical equation.",
+    example: "ai provide a mathematical equation.",
     category: "AI",
     execute: async (api, event, args, prefix) => {
         const { threadID, messageID } = event;
