@@ -6,9 +6,9 @@ module.exports = {
     nashPrefix: false,
     version: "1.0.0",
     cooldowns: 5,
-    aliases: ["gpt4"],
+    aliases: ["gpt4","RTUMM AI"],
     usage: "[prompt]",
-    example: "ai what is the capital of France?",
+    example: "ai give mathematical equation.",
     category: "AI",
     execute: async (api, event, args, prefix) => {
         const { threadID, messageID } = event;
